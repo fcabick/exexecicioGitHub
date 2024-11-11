@@ -18,11 +18,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v4
     - name: Run ls on currrent directory
       run:  echo "Conteudo do direitório atual" && ls -la
     - name: Run ls on previos directory
       run:  echo "Conteudo do direitório anterior" && ls -la ../
-    - uses: actions/checkout@v4
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
