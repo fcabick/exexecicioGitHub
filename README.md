@@ -1,2 +1,2 @@
 # exexecicioGitHub
-Exercicio Avanade GitHub
+Exercicio GitHub
